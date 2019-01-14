@@ -1,5 +1,5 @@
 verify: quine.cpp
-	g++ quine.cpp -o quine
+	g++ -std=c++17 quine.cpp -o quine
 	./quine > quine.out
 	sdiff quine.out quine.cpp
 
